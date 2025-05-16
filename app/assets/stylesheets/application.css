@@ -1,3 +1,16 @@
+.error-messages {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #b30000;
+  border-radius: 5px;
+}
+.field_with_errors input,
+.field_with_errors textarea {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
